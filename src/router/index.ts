@@ -8,12 +8,12 @@ Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
     {
-        path: '/money',
-        component: Money
-    },
-    {
         path: '/',
         redirect: '/money'  // 重定向
+    },
+    {
+        path: '/money',
+        component: Money
     },
     {
         path: '/labels',

@@ -1,10 +1,13 @@
 <template>
-  <div>测试</div>
+  <div>测试
+    <Nav/>
+  </div>
 </template>
 
 <script lang='ts'>
 export default {
-  name: "Money"
+  name: "Money",
+
 }
 </script>
 
