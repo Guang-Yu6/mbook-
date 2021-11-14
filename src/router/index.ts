@@ -3,7 +3,7 @@ import VueRouter, {RouteConfig} from 'vue-router'
 import Money from "@/views/Money.vue";
 import Statistics from "@/views/Statistics.vue";
 import Labels from "@/views/Labels.vue";
-import Not from "@/components/Not.vue";
+import Not from "@/views/Not.vue";
 
 Vue.use(VueRouter)
 
